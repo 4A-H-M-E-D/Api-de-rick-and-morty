@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Práctica FETCH API</title>
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Fetch API practica</h1>
+        <div class="loader d-flex justify-content-center align-items-center d-none mt-2">
+            <div class="spinner-border text-info" role="status" aria-hidden="true"></div>
+            <span class="ms-1 text-secondary">Loading...</span>
+        </div>
+        <section class="row" id="contenedor-cards">
+            
+        </section>
+    </div>
+    <template id="templateCards">
+        <article class="col-12 col-sm-2 col-md-4 col-lg-3 mb-1">
+            <div class="card shadow-lg">
+                <img class="card-img-top" alt="Imagen-card">
+                <div class="card-body">
+                    <h3 class="text-center text-primary card-title"></h3>
+                    <p class="text-center parrafo"></p>
+                </div>
+            </div>
+        </article>
+    </template>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
